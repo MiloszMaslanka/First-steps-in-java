@@ -1,0 +1,40 @@
+package OnGitHub;
+
+public class Variables {
+    public static void main(String[] args) {
+      
+        System.out.println("All Variables");
+       
+        System.out.println("This is Byte:");
+        System.out.println(Byte.MAX_VALUE);
+        System.out.println(Byte.MIN_VALUE);
+       
+        System.out.println("This is Short");
+        System.out.println(Short.MAX_VALUE);
+        System.out.println(Short.MIN_VALUE);
+      
+        System.out.println("This is Int");
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+       
+        System.out.println("This is Long");
+        System.out.println(Long.MAX_VALUE);
+        System.out.println(Long.MIN_VALUE);
+      
+        System.out.println("This is Float");
+        System.out.println(Float.MAX_VALUE);
+        System.out.println(Float.MIN_VALUE);
+       
+        System.out.println("This is Double");
+        System.out.println(Float.MAX_VALUE);
+        System.out.println(Float.MIN_VALUE);
+      
+        System.out.println("This is Char");
+        char x = '*';
+       
+        System.out.println("This is boolean");
+        boolean t = true;
+        boolean f = false;
+       
+    }
+}
