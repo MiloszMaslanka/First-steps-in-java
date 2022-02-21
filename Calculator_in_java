@@ -1,0 +1,25 @@
+package OnGitHub;
+
+import java.util.Scanner;
+
+public class variable_calculator {
+    public static void main(String[] args) {
+
+        java.util.Scanner scanner = new Scanner(System.in);
+        System.out.println("Give number x");
+        int x = scanner.nextInt();
+        System.out.println("Give number y");
+        int y = scanner.nextInt();
+
+        int multiplication = x*y;
+        int addition = x+y;
+        int subtraction = x-y;
+        int modulo = x%y;
+
+        System.out.println("multiplication: "+multiplication);
+        System.out.println("addition: "+addition);
+        System.out.println("subtraction: "+subtraction);
+        System.out.println("modulo: "+modulo);
+
+    }
+}
