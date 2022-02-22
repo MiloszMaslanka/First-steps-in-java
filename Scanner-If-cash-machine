@@ -1,0 +1,18 @@
+package bankomat;
+
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+
+        java.util.Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your PIN");
+
+        int pin = scanner.nextInt();
+        if(pin==1234){
+            System.out.println("Pin is correct");
+        }else {
+            System.out.println("pin is not correct");
+        }
+    }
+}
