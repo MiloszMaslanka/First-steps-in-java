@@ -1,0 +1,20 @@
+package jas;
+
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        java.util.Scanner scanner = new Scanner(System.in);
+        System.out.println("how much do you have people in your class?");
+        int peopleInClYourass = scanner.nextInt();
+        System.out.println("How much do you have candies?");
+        int candies = scanner.nextInt();
+
+        int foreveryone = candies/peopleInClYourass;
+        int fornight = candies%peopleInClYourass;
+
+        System.out.println("ilosc cukierkow na osobe: " + foreveryone);
+        System.out.println("Cukierki na wieczor: " + fornight);
+    }
+
+}
