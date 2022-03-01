@@ -1,0 +1,15 @@
+package Loop_3;
+
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        int number;
+        do {
+            System.out.println("Enter number");
+            java.util.Scanner scanner = new Scanner(System.in);
+             number = scanner.nextInt();
+        }while (number != 0);
+        
+    }
+}
