@@ -1,0 +1,22 @@
+package Loops.Loop_21;
+
+import java.util.Scanner;
+
+public class mainnnq {
+    public static void main(String[] args) {
+        int sum = 0;
+        java.util.Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter number X: ");
+        int X = scanner.nextInt();
+        System.out.println("Enter number Y:");
+        int Y = scanner.nextInt();
+
+        for (int i = X;i<=Y;i++){
+
+            if (i%2==1){
+                sum+=i;
+
+            }
+        } System.out.println(sum);
+    }
+}
