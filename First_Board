@@ -1,0 +1,15 @@
+package Board;
+
+import java.util.Scanner;
+
+public class Board_0 {
+    public static void main(String[] args) {
+
+        String [] tab = {"Maciek", "Pawael","Janek"};
+        
+        System.out.println("Enter student number: ");
+        java.util.Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        System.out.println(tab[number]);
+    }
+}
