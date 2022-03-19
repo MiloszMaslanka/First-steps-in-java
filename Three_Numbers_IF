@@ -1,0 +1,18 @@
+package ThreeNumbers;
+import java.util.Scanner;
+public class mainqu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input number One: ");
+        int numberOne = sc.nextInt();
+        System.out.println("Input number One: ");
+        int numberTwo = sc.nextInt();
+        System.out.println("Input number Three: ");
+        int numberThree = sc.nextInt();
+        if (numberOne+numberTwo==numberThree||numberTwo+numberThree==numberOne||numberThree+numberOne==numberTwo){
+            System.out.println("Result is True :) ");
+        }else {
+            System.out.println("Result is False :( ");
+        }
+    }
+}
